@@ -9,8 +9,7 @@ namespace Components.Services
         private readonly IPublishEndpoint _publishEndpoint;
         private readonly IUnitOfWork _unitOfWork;
 
-        public RegistrationService(
-            IPublishEndpoint publishEndpoint,
+        public RegistrationService(IPublishEndpoint publishEndpoint,
             IUnitOfWork unitOfWork)
         {
             _publishEndpoint = publishEndpoint;
