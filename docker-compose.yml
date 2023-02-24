@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+
+  mssql:
+      image: mcr.microsoft.com/azure-sql-edge
+      environment:
+          SA_PASSWORD: "admin123!"
+          ACCEPT_EULA: "Y"    
+      ports:
+          - 5434:1433
+      networks:
+          - sv-network
+      volumes: 
+          - mssql-volume:/var/opt/mssql
+
+  rabbitmq:
+    image: masstransit/rabbitmq:latest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+networks:
+  sv-network:
+    name: sv-network
+
+volumes:
+  mssql-volume:
+    driver: local

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outbox", "Outbox\Outbox.csproj", "{B4E6CF66-0609-49FF-A027-54CCCDEF3FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Components", "Components\Components.csproj", "{0ECBF29D-4C39-405F-A520-DEA872E5C0F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E6CF66-0609-49FF-A027-54CCCDEF3FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E6CF66-0609-49FF-A027-54CCCDEF3FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E6CF66-0609-49FF-A027-54CCCDEF3FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E6CF66-0609-49FF-A027-54CCCDEF3FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECBF29D-4C39-405F-A520-DEA872E5C0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECBF29D-4C39-405F-A520-DEA872E5C0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECBF29D-4C39-405F-A520-DEA872E5C0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECBF29D-4C39-405F-A520-DEA872E5C0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5081FC2-315C-4073-A943-A35C9FC87DBD}
+	EndGlobalSection
+EndGlobal
